@@ -1,0 +1,11 @@
+
+> category-sprint-backend@0.1.0 dev
+> tsx watch src/server.ts
+
+Category Sprint backend listening on port 4000
+1:39:36 PM [tsx] change in ./src\server.ts Restarting...
+cCategory Sprint backend listening on port 4000
+1:39:45 PM [tsx] change in ./src\server.ts Restarting...
+cCategory Sprint backend listening on port 4000
+1:39:55 PM [tsx] change in ./src\server.ts Restarting...
+cCategory Sprint backend listening on port 4000
