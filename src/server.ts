@@ -63,10 +63,14 @@ app.get("/health", (_request, response) => {
   response.json({ ok: true });
 });
 
+app.get('/', (req, res) => {
+  res.send('Category Sprint backend is running ✅');
+});
+
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: (origin, callback) => callback(null, isAllowedOrigin(origin)),
+    origin: "https://category-sprint-frontend.vercel.app",
     methods: ["GET", "POST"]
   }
 });
